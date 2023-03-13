@@ -1,0 +1,108 @@
+body{
+    background-color: #cbe8ee;
+}
+.adjust{
+    position: relative;
+    left: 10%;
+    
+}
+div{
+    background-color: black;
+    width: 100%;
+
+}
+.extend{
+    position: relative;
+    left: 20%;
+}
+hr{
+    background-color: rgb(39, 37, 142);
+    border-style: dotted;
+    height: 0%;
+    width: 100%;
+}
+h2{
+    color: blue;
+}
+em{
+    color: blue;
+}
+.circular{
+    position: absolute;
+    width: 12%;
+    left: 60%;
+    top: 15%;
+}
+h1{
+    font-size: 40px;
+}
+.straight{
+    position: relative;
+
+}
+.shift-up{
+    position: relative;
+    bottom: 20px;
+}
+.links{
+    color: white;
+}
+.btn {
+    background: blue;
+    background-image: -webkit-linear-gradient(top, blue, #922bb8);
+    background-image: -moz-linear-gradient(top, blue, #922bb8);
+    background-image: -ms-linear-gradient(top, blue, #922bb8);
+    background-image: -o-linear-gradient(top, blue, #922bb8);
+    background-image: linear-gradient(to bottom, blue, #922bb8);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    text-shadow: 1px 1px 3px #666666;
+    font-family: serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+    border: solid #ffffff 1px;
+    text-decoration: none;
+    color:  #ffffff;
+   font-family: serif;
+   margin:20px 190px;
+   font-size: 20px;
+  }
+  
+  .btn:hover {
+    background: #3ca8fa;
+    background-image: -webkit-linear-gradient(top, #3ca8fa, #344dd9);
+    background-image: -moz-linear-gradient(top, #3ca8fa, #344dd9);
+    background-image: -ms-linear-gradient(top, #3ca8fa, #344dd9);
+    background-image: -o-linear-gradient(top, #3ca8fa, #344dd9);
+    background-image: linear-gradient(to bottom, #3ca8fa, #344dd9);
+    text-decoration: none;
+  }
+.anchor{
+   color:  #ffffff;
+   font-family: serif;
+   margin:20px 190px;
+   font-size: 20px;
+   text-decoration: none;
+}
+.anchor:hover{
+    color: #344dd9;
+}
+.top-gap{
+    margin-top: 80px;
+}
+.drawing{
+    text-decoration: solid;
+    text-decoration-color: #100cd3;
+    color: blue;
+}
+.drawing:hover{
+    color: #db04d1;
+}
+.relative{
+    position:relative;
+    left:40%;
+    font-size: 40px;
+    font-family: cursive;
+}
