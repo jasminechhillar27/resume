@@ -1,19 +1,24 @@
 body{
     background-color: #cbe8ee;
 }
-.adjust{
+.adjustSelf{
     position: relative;
-    left: 10%;
-    
+    left: 7%;   
 }
-div{
+.adjustCollege{
+    position: relative;
+    left: 7%; 
+}
+/* div{
     background-color: black;
     width: 100%;
 
-}
-.extend{
+} */
+.footPart-rightSide{
     position: relative;
-    left: 20%;
+    padding-right: 0 20px;
+    margin-right: 20px;
+    left: 180px;
 }
 hr{
     background-color: rgb(39, 37, 142);
@@ -27,25 +32,28 @@ h2{
 em{
     color: blue;
 }
-.circular{
+.profile{
     position: absolute;
-    width: 12%;
-    left: 60%;
-    top: 15%;
+    width: 14%;
+    left: 73%;
+    top: 3%;
 }
 h1{
     font-size: 40px;
 }
-.straight{
+.footPart-leftSide{
     position: relative;
-
+    top:0%;
+    padding: 0 13px;
+    bottom: 43px;
+    
 }
-.shift-up{
-    position: relative;
-    bottom: 20px;
-}
-.links{
+.social{
     color: white;
+    background-color: black;
+    padding: 17px 150px;
+    display: flex;
+
 }
 .btn {
     background: blue;
@@ -66,8 +74,11 @@ h1{
     text-decoration: none;
     color:  #ffffff;
    font-family: serif;
-   margin:20px 190px;
    font-size: 20px;
+  }
+  .contact{
+    text-align: center; 
+    margin: auto;   
   }
   
   .btn:hover {
@@ -79,14 +90,24 @@ h1{
     background-image: linear-gradient(to bottom, #3ca8fa, #344dd9);
     text-decoration: none;
   }
-.anchor{
+.anchor1{
    color:  #ffffff;
    font-family: serif;
-   margin:20px 190px;
    font-size: 20px;
+   text-align: left;
    text-decoration: none;
 }
-.anchor:hover{
+.anchor1:hover{
+    color: #344dd9;
+}
+.anchor2{
+    color:  #ffffff;
+    font-family: serif;
+    text-align: right;
+    font-size: 20px;
+    text-decoration: none;
+ }
+.anchor2:hover{
     color: #344dd9;
 }
 .top-gap{
@@ -100,9 +121,47 @@ h1{
 .drawing:hover{
     color: #db04d1;
 }
-.relative{
+.creative{
     position:relative;
     left:40%;
     font-size: 40px;
     font-family: cursive;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px){
+    .adjustSelf{
+        text-align: center;
+        top: 160px;
+        left:20px;
+        font-size: 35px;
+    }
+    .adjustCollege{
+        text-align: center;
+        top: 145px;
+        font-size: 18px;
+        font-family: serif;
+        font-weight: lighter;
+    }
+    .profile{
+        width: 180px;
+        display: flex;
+        left: 35%;
+    }
+    .top-gap{
+        margin-top: 175px;
+    }
+    .social{
+        padding: 17px 50px;
+        display: flex;
+    
+    }
+    .footPart-leftSide{
+        display: contents;
+
+    }
+    .footPart-rightSide{
+        display: contents;
+    }
+    
 }
